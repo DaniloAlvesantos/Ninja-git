@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+#user-photo {
+    width: 280px;
+    height:280px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.container {
+    background: linear-gradient(80deg,#1b1b1b 0% ,#0a0a0a36);
+
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+
+    color: white;
+
+    position: absolute;
+    padding-bottom: 600px;
+    flex-direction: column;
+    display: flex;
+}
+
+.fetching {
+    font: 20px;
+}
+
+.container h1 {
+    margin-top: 10px;
+}
+
+.input-search {
+    padding: 5px;
+    width: 275px;
+}
+
+/*Animations*/
+
+@keyframes right {
+    from{
+        transform:translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.animation-right {
+    animation-name: right;
+    animation-duration: 300ms;
+}
+
+

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.cont-back {
+    background: url("../../img/pexels-cottonbro-5054213\ \(1\).jpg");
+    
+    width: 1279px;
+    height: 640px;
+    
+    font-family: 'Open Sans', sans-serif; 
+    color: white;
+    font-size: 20pt;
+
+    justify-content: center;
+    align-items: center;
+  
+    display: flex;
+}
+
+.cont-back hr {
+    width: 50px;
+    margin:5px;
+    padding:0.5px;
+    background: white;
+    border-radius: 4px;
+}

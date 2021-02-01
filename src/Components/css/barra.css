@@ -1,0 +1,12 @@
+.input-search {
+    border-radius: 5px;
+    background: #1b1b1b;
+    color: white;
+    border-style: none;
+}
+
+.searchSVG{
+    position: absolute;
+    left: 260px;
+    margin-top: 2px;
+}
